@@ -15,11 +15,11 @@ class Time{
 
 Time :: Enter(){
 	cout<<"Enter the time :";
-	cout<<"\n1. Hours:";
+	cout<<"\n1. Hours :";
 	cin>>hrs;
-	cout<<"\n2. Minutes:";
+	cout<<"\n2. Minutes :";
 	cin>>min;
-	cout<<"\n3. Seconds:";
+	cout<<"\n3. Seconds :";
 	cin>>sec;
 }
 
