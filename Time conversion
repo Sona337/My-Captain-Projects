@@ -24,7 +24,7 @@ Time :: Enter(){
 }
 
 Time :: Display(){
-	cout<<"Time entered by you in HH:MM:SS format is\t";
+	cout<<"Time entered by you in HH:MM:SS format is \t";
 	cout<<hrs<<" : "<<min<<" : "<<sec;
 }
 
