@@ -1,0 +1,43 @@
+//Read time in HH:MM:SS and convert into total seconds
+#include<iostream>
+using namespace std;
+
+class Time{
+	private :
+		int hrs;
+		int min;
+		int sec;
+	public :
+		Enter();
+		Display();
+		Convert();
+};
+
+Time :: Enter(){
+	cout<<"Enter the time :";
+	cout<<"\n1. Hours:";
+	cin>>hrs;
+	cout<<"\n2. Minutes:";
+	cin>>min;
+	cout<<"\n3. Seconds:";
+	cin>>sec;
+}
+
+Time :: Display(){
+	cout<<"Time entered by you in HH:MM:SS format is\t";
+	cout<<hrs<<" : "<<min<<" : "<<sec;
+}
+
+Time :: Convert(){
+	int seconds;
+	seconds = hrs*3600 + min*60 + sec;
+	cout<<"\nThe time converted to seconds = "<<seconds;
+}
+
+main()
+{
+	 Time t1;
+	 t1.Enter();
+	 t1.Display();
+	 t1.Convert();
+}
