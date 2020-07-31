@@ -3,3 +3,10 @@ pi = 22/7
 Radius = float(input("Enter the radius of the circle: "))
 Area = Radius * Radius * pi
 print("The area of the cirle with radius " + str(Radius) + " is " + str(Area))
+
+#To print the extension of the file entered 
+file_name = input("Enter a file name: ")
+f_extension = file_name.split(".")
+print("The extension of the file entered is : " + repr(f_extension[-1:]))
+
+
