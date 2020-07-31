@@ -1,0 +1,8 @@
+#To print the positive integers in a range
+
+start = int(input("Enter the start limit of the range: "))
+end = int(input("Enter the end limit of the range: "))
+
+for num in range(start, end + 1):
+    if num >= 0:
+        print(num, end = " ")
